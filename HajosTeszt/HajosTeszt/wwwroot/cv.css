@@ -1,0 +1,16 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    background-color: fuchsia;
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    background-color: rgba(112, 112, 112, 0.9);
+}
+h2 {
+    background-color: rgba(112, 112, 112, 0.9);
+}
+
