@@ -1,0 +1,62 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+}
+}
+nav {
+    background: deepskyblue;
+    padding: 20px;
+}
+
+article {
+    text-align: left;
+    background: gold;
+    padding: 20px;
+    display: flex;
+}
+
+aside {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+footer {
+    background: hotpink;
+    padding: 20px;
+}
+/* 800px-nél nagyobb képernyő*/
+@media screen and (min-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    #main {
+        display: flex;
+    }
+
+    #nav,
+    #header {
+        order: -1;
+    }
+
+    #article {
+        flex: 1 1 75%;
+    }
+
+    #aside {
+        flex: 1 1 25%;
+    }
+}
+
