@@ -1,0 +1,46 @@
+﻿html, body {
+    height: 100%;
+}
+
+div {
+    
+}
+
+#külső {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#kérdés_szöveg {
+}
+
+#középső {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1 
+}
+
+#válaszok {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#vezérlő {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#kép {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.gomb {
+    padding: 20px;
+    width: 80px;
+}
+
+.kerdes {
+}
