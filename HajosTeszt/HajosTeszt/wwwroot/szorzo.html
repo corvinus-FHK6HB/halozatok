@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style >
+        .sor{
+            display:flex;
+            flex-direction:row
+        }
+        .elem{
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="ide">.</div>
+
+    <script>
+        let hova = document.getElementById("ide");
+        for (var s = 0; s < 10; s++) {
+            let sor = document.createElement("div");
+            sor.classList.add("sor")
+            hova.appendChild(sor);
+
+            for (var o = 0; o < 10; o++) {
+                let szám = document.createElement("div");
+                szám.innerText = (s + 1) * (o + 1)
+                szám.classList.add("elem")
+                sor.appendChild(szám);
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
