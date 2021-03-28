@@ -42,5 +42,9 @@ div {
     width: 80px;
 }
 
+.kattintható:hover {
+    background-color: fuchsia;
+    color: white;
+}
 .kerdes {
 }
