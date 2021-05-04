@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace HajosTeszt.[Mappa]
+namespace HajosTeszt.Models
 {
     public partial class hajostesztContext : DbContext
     {
@@ -24,7 +24,7 @@ namespace HajosTeszt.[Mappa]
             if (!optionsBuilder.IsConfigured)
             {
 /*#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.*/
-                optionsBuilder.UseSqlServer("Data Source=sql.2rpi.hu,7000;Initial Catalog=hajosteszt;Persist Security Info=True;User ID=hallgato;Password=Password123");
+                optionsBuilder.UseSqlServer("Data Source=sql.2rpi.hu,7000;Initial Catalog=hajosteszt;Persist Security Info=True;User ID=hallgato; Password=Password123");
             }
         }
 
