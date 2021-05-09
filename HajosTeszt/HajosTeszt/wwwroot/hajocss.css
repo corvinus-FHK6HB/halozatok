@@ -1,5 +1,6 @@
 ﻿html, body {
     height: 100%;
+    margin:0;
 }
 
 div {
@@ -10,9 +11,12 @@ div {
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 
 #kérdés_szöveg {
+    display: flex;
+    flex-direction: row;
 }
 
 #középső {
@@ -23,7 +27,6 @@ div {
 
 #válaszok {
     flex-grow: 1;
-    flex-shrink: 1;
 }
 
 #vezérlő {
@@ -40,11 +43,29 @@ div {
 .gomb {
     padding: 20px;
     width: 80px;
+    cursor: pointer
 }
 
 .kattintható:hover {
     background-color: fuchsia;
     color: white;
+    cursor: pointer
 }
 .kerdes {
+    padding:10px;
 }
+.jó{
+    color:white;
+    background-color:lightgreen
+}
+.rossz {
+    color: white;
+    background-color: lightcoral
+}
+img{
+    max-width:100%
+}
+body{
+    background-color: lightcyan
+}
+
