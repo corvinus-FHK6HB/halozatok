@@ -1,0 +1,14 @@
+Create Table [dbo].[FHK6HB]
+(
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Manufacturer] [varchar](50) NULL,
+	Constraint pk_FHK6HB Primary key (ID)
+)
+GO
+SET IDENTITY_INSERT [dbo].[FHK6HB] ON
+GO
+INSERT [dbo].[FHK6HB] (ID, Manufacturer) VALUES (1,'BMW')
+INSERT [dbo].[FHK6HB] (ID, Manufacturer) VALUES (2,'Skoda')
+INSERT [dbo].[FHK6HB] (ID, Manufacturer) VALUES (3,'Mazda')
+INSERT [dbo].[FHK6HB] (ID, Manufacturer) VALUES (4,'Audi')
+GO
